@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/bakery.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    color: white;
+}
+
+.menu {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(46, 6, 2, 0.7); /* Semi-transparent background for readability */
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc; /* Optional: underline for headings */
+    font-family: sans-serif;
+    color: peru
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+
+.price {
+    margin-left: auto; /* Align price to the right */
+}
+p {
+    text-align: center;
+}
